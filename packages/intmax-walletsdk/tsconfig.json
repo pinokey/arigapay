@@ -1,0 +1,16 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "exclude": [],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "sourceMap": true,
+        "outDir": "./dist/esm",
+        "declarationDir": "./dist/types",
+        "types": ["svelte","node"],
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.test.ts",
+        "build.ts"
+    ]
+}
